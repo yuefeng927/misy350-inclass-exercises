@@ -1,7 +1,7 @@
 function main () {
-    $(#success-button).click(function () {
+    $('#success-button').click(function () {
       $('#exampleModal').modal('show');
     });
 }
 
-$(document).ready.main;
+$(document).ready(main);
